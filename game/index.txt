@@ -1,0 +1,3 @@
+To start the game open the terminal and go to the directory where this file is located
+
+In the terminal, type the command 'node GameStart.js' to start the game

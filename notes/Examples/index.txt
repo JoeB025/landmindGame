@@ -1,0 +1,23 @@
+process.stdin.on
+
+The process.stdin property is an inbuilt application programming interface of the 
+process module which listens for the user input. The stdin property of the process 
+object is a Readable Stream. It uses on() function to listen for the event.
+
+Return Value: It doesn’t return any value.
+
+Parameters: This property takes Input from the user.
+
+Below examples illustrate the use of process.stdin property in Node.js:
+
+Example 1: Create a JavaScript file and name this file as index.js.
+
+Example: 
+
+// Node.js program to demonstrate the process.stdin Property  
+
+// Enter any texts ( User input)
+process.stdin.on('data', data => { 
+  console.log(`You typed ${data.toString()}`); 
+  process.exit(); 
+});

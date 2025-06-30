@@ -1,0 +1,7 @@
+Jest has been used to set up tests 
+
+Install jest using the following command:  
+npm install --save-dev jest 
+
+To run tests using Jest, use the following command: 
+npx jest

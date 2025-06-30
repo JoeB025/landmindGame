@@ -1,0 +1,29 @@
+SOLID Principles in Use:
+
+In software programming, SOLID is a mnemonic acronym for five design principles intended to make 
+object-oriented designs more understandable, flexible, and maintainable.
+
+1. Single Responsibility Principle:
+- The Player class handles player movement and state.
+- The Board class is responsible for landmine generation and board state.
+- The Game class handles the overall game logic.
+
+2. Open/Closed Principle:
+- New features, like adding new types of obstacles or power-ups, can be added by extending classes 
+without modifying the existing code.
+
+3. Liskov Substitution Principle:
+- Each class can be substituted with its derived class (if extended) without breaking the game logic.
+
+4. Interface Segregation Principle:
+- The player and board have simple, specific methods (move() and isLandmine()) focused on their 
+individual tasks.
+
+5. Dependency Inversion Principle:
+- The Game class does not depend directly on specific board or player implementations. 
+It works with abstractions that can easily be modified or replaced.
+
+
+Extensibility:
+- You could easily extend the game with more features, such as power-ups, obstacles, or different 
+board sizes, by adding new classes or extending existing ones.
